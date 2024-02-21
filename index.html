@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/93ad15926a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/1708409271184.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>B.Tech Student</p>
+            <h1>Hi, I'm <span>Adith T M </span> <br>from Kerala, India</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_20230906_132227 (1).png">
+            </div>
+            <div class="about-col-2">
+                <h1 class='sub-title'>About me</h1>
+                <p>Enthusiastic Electronics and Communication Engineering student pursuing challenging opportunities, driven by an unyielding passion for pioneering technologies. Aspiring to infuse innovation into dynamic work environments and make a lasting impact with a solid theoretical foundation.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages</span><br>Proficient in Python</li>
+                        <li><span>Video editing</span><br>Proficient in Adobe Premier Pro , After Effects , Wondershare Filmora
+                            </li>
+                        <li><span>Electronics</span><br> Basic knowledgde of Raspberry pi,</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Project Intern(November 2023- February 2024)</span><br>Vikram Sarabhai Space centre</li>
+                        <li><span>Intern (June 2023 -July 2023)</span><br>Vikram Sarabhai Space centre</li>
+                        <li><span>Video Editor (2022-23)</span><br>IEEE ComSoc Kerala Chapter</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>NSS College of Engineering Palakkad (2020-2024)</span><br>B.Tech. in Electronics and Communication Engineering<br>Minor degree in Python and Machine Learning (CSE Dept.)</li>
+                        <li><span>MNKMHSS PULAPATTA (2018-2020)</span><br>Higher Secondary - Biology Science</li>
+                        <li><span>H S KATAMPAZHIPURAM (2018)</span><br>Matriculation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class='sub-title'>My Projects</h1>
+        <div class="projects-list">
+            <div class="work">
+                <img src="images/IMG_20240220_115448.jpg" alt="">
+                <div class="layer">
+                    <h3>Light Follower Robot</h3>
+                    <p>This robot follows the direction of light</p>
+                    <a href="New folder/LIC Project Report - Light Follower Robot-1.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photo_2024-02-20_13-47-23.jpg" alt="">
+                <div class="layer">
+                    <h3>Traffic sign detector</h3>
+                    <p>A traffic sign detection system using CNN and Keras in Python</p>
+                    <a href="New folder/traffic_adith.pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/photo_2024-02-20_11-55-31.jpg" alt="">
+                <div class="layer">
+                    <h3>Vehicular pollution moniotoring system</h3>
+                    <p>This device helps in continuous monitoring of pollution in vehicles</p>
+                    <a href="New folder/VEHICULAR_POLLUTION_MONITORING_SYSTEM__1_ (2).pdf"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://drive.google.com/drive/u/2/folders/1WDNnB4EkQ_xZGUBaVyfYpHF1dkFZ2t2X" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i> adith7923@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 9947397099</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100011024111263">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/AdithTM1">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/adith.t.m/">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/adith-t-m/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>     
+                </div>
+                <a href="images/Adith_Resume (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Adith.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw19w3DobyK_VyKnZjIqTLZEiwO9ussqe92UlvwSXIvvJfMNNtdPnCvzuFM7Fa2m3yoCg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent"
+    setTimeout(function(){msg.innerHTML = ""},5000)})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
